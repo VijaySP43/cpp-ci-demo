@@ -19,7 +19,7 @@ jobs:
       run: sudo apt-get install g++
 
     - name: Build the code
-      run: g++ -o main main.cpp
+      run: g++ -o main main.cpp hello.cpp
 
     - name: Run the executable
       run: ./main
